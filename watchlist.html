@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="header">
+        <h1 class="header-title">My watchlist</h1>
+        <a href="/index.html"
+          ><h3 class="header-subtitle">Search for movies</h3></a
+        >
+      </nav>
+      <section class="movies-list flex">
+        <div id="watchlist" class="watch-list">
+          <p class="list-title">Your watchlist is looking a little empty</p>
+        </div>
+        <div class="list-button">
+          <a href="/index.html"><i class="fa-solid fa-circle-plus"></i></a>
+          <p class="list-title black">Let's add some movies!</p>
+        </div>
+      </section>
+    </div>
+    <script src="/watchlist.js" type="module"></script>
+  </body>
+</html>
